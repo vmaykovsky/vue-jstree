@@ -11,7 +11,8 @@ module.exports = {
     filename: 'vue-jstree.js',
     library: 'vue-jstree',
     libraryTarget: 'umd',
-    umdNamedDefine: true
+    umdNamedDefine: true,
+    // globalObject: `(typeof self !== 'undefined' ? self : this)`
   },
   module: {
     rules: [
